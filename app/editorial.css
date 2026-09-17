@@ -1,0 +1,13 @@
+.portfolio .heroVisual{height:540px}
+.portfolio .browserCard{width:92%;right:0;top:46px;height:430px;transform:rotateY(-4deg)}
+.portfolio .browserCard img{height:397px}
+.caseSummary,.caseOpen{position:absolute;z-index:4;background:#0c1522e8;border:1px solid #526284;border-radius:12px;box-shadow:0 20px 50px #0008;backdrop-filter:blur(14px)}
+.caseSummary{left:0;bottom:2px;width:250px;padding:18px 20px}
+.caseSummary span,.caseSummary small{display:block;color:#91a1b8;font-size:.58rem;letter-spacing:.1em}
+.caseSummary b{display:block;font:600 .85rem/1.45 Manrope,sans-serif;margin:9px 0 12px}
+.caseOpen{right:2%;bottom:8px;padding:14px 17px;font-size:.68rem;font-weight:600}
+.caseOpen span{margin-left:18px;color:#a58bff}
+.buildDirections article{padding-left:0}
+.processLine b:after,.flow b:after{content:'';display:block;width:8px;height:8px;border-radius:50%;background:#8b70ff}
+.flow b{height:14px}
+@media(max-width:600px){.portfolio .heroVisual{height:350px}.portfolio .browserCard{width:96%;height:250px;top:20px}.portfolio .browserCard img{height:217px}.caseSummary{left:0;bottom:0;width:210px;padding:13px 15px}.caseSummary b{font-size:.7rem}.caseOpen{right:0;bottom:5px;padding:11px;font-size:.58rem}.caseOpen span{margin-left:8px}.portfolio .browserText strong{font-size:1.35rem}}
